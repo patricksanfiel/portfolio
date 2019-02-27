@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Patrick Sanfiel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/CSS/index.css" />
+    <script src="./assets/JS/index.js"></script>
+</head>
+<body>
+    <nav id="nav">
+        <button id="nav-toggle" class="linear-gradient">Show Nav</button>
+        <ul id="nav-ul" class="hide-nav">
+            <li><a href="#home-section">Home</a></li>
+            <li><a href="#portfolio-section">Portfolio</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#contact-section">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="home-section" class="page">
+            <header id="home-header">Hi, I'm Patrick</header> 
+            <div class="typewriter">
+                <p id="home-blurb">I'm a full-stack web developer.</p>
+            </div>
+            <a href="#portfolio-section" id="view-work">View My Work</a>
+        </section>
+        <section id="portfolio-section" class="page">
+            <header id="portfolio-header" class="section-header">Portfolio</header>
+            <section class="row project-row">
+                <section class="project-section col-5">
+                    <header class="project-header">Piano Bar</header>
+                    <a href="https://patricksanfiel.github.io/PianoBar/"><img class="project-image" src="assets/images/piano-bar.png" alt="piano bar app"></a>
+                </section>
+                <section class="project-section col-5">
+                    <header class="project-header">JS Clock</header>
+                    <a href="https://patricksanfiel.github.io/JSClock/"><img class="project-image" src="assets/images/js-clock.png" alt="js clock app"></a>
+                </section>
+            </section>
+            <section class="row project-row">
+                <section class="project-section col-5">
+                    <header class="project-header">Minesweeper</header>
+                    <a href="https://patricksanfiel.github.io/Minesweeper/"><img class="project-image" src="assets/images/minesweeper.png" alt="minesweeper"/></a>
+                </section>
+                <section class="project-section col-5">
+                    <header class="project-header">React Hangman</header>
+                    <a href="https://patricksanfiel.github.io/react-hangman/"><img class="project-image" src="assets/images/react-hangman.png" alt="react hangman"/></a>
+                </section> 
+            </section>
+            <section class="row project-row">
+                <section class="project-section col-5">
+                    <header class="project-header">Pokedex</header>
+                    <a href="https://patricksanfiel.github.io/Pokedex/"><img class="project-image" src="assets/images/pokedex.png" alt="pokedex"/></a>
+                </section>
+            </section>
+        </section>
+        <section id="about-section" class="page">
+            <header class="section-header">About</header>
+            <p id="about-blurb">
+                My name is Patrick Sanfiel and I'm a web developer living in sunny Miami, Florida. I'm a JavaScript junkie, and while I know my way around Node, I get particulary excited when I have the chance to build dynamic, responsive front-ends; especially if I can write some JSX with React. I'm always evolving and looking for new and exciting ways to solve problems and write cleaner, more efficient code, whether that involves learning a new framework or simply approaching a task from a different perspective. I also love meeting others who share my passion and enthusiasm for web and software development, so please feel free to get in contact with me using one of the ways below
+            </p>
+        </section>
+        <section id="contact-section" class="page">
+            <header class="section-header">Contact</header>
+            <p>Like what you see? Get in touch with me and lets build something amazing together</p>
+            <div class="row">
+                <a href="mailto:patrick@patricksanfiel.com" class="col-3 contact-link">
+                    <div class="contact-div">
+                        <i class="far fa-envelope"></i>
+                        <p class="contact-caption">Email</p>
+                    </div>
+                </a>
+                <a href="https://github.com/patricksanfiel" class="contact-link col-3">
+                    <div class="contact-div">
+                        <i class="fab fa-github"></i>
+                        <p class="contact-caption">GitHub</p>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/patricksanfiel/" class="contact-link col-3">
+                    <div class = "contact-div">
+                        <i class="fab fa-linkedin-in"></i>
+                        <p class="contact-caption">LinkedIn</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
